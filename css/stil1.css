@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-color: #3e9be7;
+    font-family: "Calistoga", serif;
+}
+
+.naslov{
+    background-color: #004aad;
+    padding: 3%;
+    padding-bottom: 3px;
+    background-image: url("../slike/slika1.png"), url("../slike/prijedor.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, 99% center;
+    background-size: 170px, 132px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+.naslov h1{
+    padding-bottom: 5px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 90pt;
+}
+
+nav{
+    background-color: #1f6bcf;
+    background-image: url("../slike/kola.png"), url("../slike/nes.png"), url("../slike/vitinka-korporativni.png"), url("../slike/nektar.png");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-position: 49% center,65% center,82% center, 99% center;
+    background-size: 180px, 199px, 190px, 192px;
+    border-bottom: solid white 2px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+ nav ul {
+    list-style: none;
+    display: flex;
+ }
+
+ nav li{
+    position: sticky;
+    top: 0px;
+ }
+
+ nav li a {
+    display: block;
+    padding: 20px 25px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    border: solid white 1px;
+    background-color: #033d80;
+    transition: background 0.5s;
+ }
+
+ nav .pada li{
+    display: block;
+ }
+
+ nav .pada {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+ }
+
+ li a:hover{
+    color: #033d80;
+    background-color: aliceblue;
+ }
+
+ nav li:hover .pada{
+    display: block;
+ }

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+.ocistiFloat{
+    display: flex;
+}
+
+.kolona {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: aliceblue;
+    border: solid #004aad 2px;
+    height: 572px;
+    background-image: url("../slike/sam.png"), url("../slike/diz.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 45%,bottom;
+    background-size: contain;
+    position: sticky;
+    z-index: -1;
+   top: 67px;
+    
+}
+
+.kolona b{
+    color: #bf0b0b;
+}
+
+.kolona p{
+    color: black;
+    text-align: center;
+    font-size: 26pt;
+}
+
+article{
+    float: inherit;
+    width: 80%;
+    padding: 10px;
+    background-image: url("../slike/pozadina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+footer{
+    background-color: lightslategray;
+    height: auto;
+    position: relative;
+    margin-top: auto;
+    justify-content: center;
+}
+
+footer p{
+    padding: 10px;
+    text-align: center;
+}

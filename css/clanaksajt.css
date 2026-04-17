@@ -1,0 +1,46 @@
+div .clanci{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div .clanak{
+    margin: 1px;
+    border: solid #004aad 2px;
+    width: 400px;
+    height: 400px;
+    transition: border 0.5s;
+}
+
+div .clanak img{
+    width: 100%;
+    height: auto;
+}
+
+div .clanak:hover {
+    /*border: solid white 1px;*/
+    border-color: white;
+}
+
+
+div .opis{
+    color: #004aad;
+    border-radius: 5px;
+    border: #004aad solid 1px;
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: left;
+    font-size: 15pt;
+    transition: color 0.5s;
+    transition: background-color 0.5s ;
+}
+
+div .clanak a{
+    text-decoration: none;
+}
+
+div .opis:hover {
+    color: aliceblue;
+    background-color: #004aad;
+    border-color: white;
+}
